@@ -1,4 +1,4 @@
-package com.longkd.cryptotracker.crypto.core.presentation.util
+package com.longkd.cryptotracker.core.presentation.util
 
 import com.longkd.cryptotracker.R
 

@@ -1,4 +1,4 @@
-package com.longkd.cryptotracker.crypto.core.data.networking
+package com.longkd.cryptotracker.core.data.networking
 
 import com.longkd.cryptotracker.BuildConfig
 

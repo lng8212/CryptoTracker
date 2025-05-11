@@ -1,4 +1,4 @@
-package com.longkd.cryptotracker.crypto.core.data.networking
+package com.longkd.cryptotracker.core.data.networking
 
 import io.ktor.client.HttpClient
 import io.ktor.client.engine.HttpClientEngine

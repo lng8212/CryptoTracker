@@ -1,7 +1,7 @@
-package com.longkd.cryptotracker.crypto.core.data.networking
+package com.longkd.cryptotracker.core.data.networking
 
-import com.longkd.cryptotracker.crypto.core.domain.util.NetworkError
-import com.longkd.cryptotracker.crypto.core.domain.util.Result
+import com.longkd.cryptotracker.core.domain.util.NetworkError
+import com.longkd.cryptotracker.core.domain.util.Result
 import io.ktor.client.statement.HttpResponse
 import io.ktor.util.network.UnresolvedAddressException
 import kotlinx.coroutines.ensureActive

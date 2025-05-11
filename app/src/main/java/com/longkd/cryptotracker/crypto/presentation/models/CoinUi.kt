@@ -1,7 +1,7 @@
 package com.longkd.cryptotracker.crypto.presentation.models
 
 import androidx.annotation.DrawableRes
-import com.longkd.cryptotracker.crypto.core.presentation.util.getDrawableIdForCoin
+import com.longkd.cryptotracker.core.presentation.util.getDrawableIdForCoin
 import com.longkd.cryptotracker.crypto.domain.Coin
 import java.text.NumberFormat
 

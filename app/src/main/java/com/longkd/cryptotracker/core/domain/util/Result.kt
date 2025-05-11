@@ -1,4 +1,4 @@
-package com.longkd.cryptotracker.crypto.core.domain.util
+package com.longkd.cryptotracker.core.domain.util
 
 typealias DomainError = Error
 

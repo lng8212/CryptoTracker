@@ -1,10 +1,11 @@
 package com.longkd.cryptotracker.crypto.data.networking
 
-import com.longkd.cryptotracker.crypto.core.data.networking.constructUrl
-import com.longkd.cryptotracker.crypto.core.data.networking.safeCall
-import com.longkd.cryptotracker.crypto.core.domain.util.NetworkError
-import com.longkd.cryptotracker.crypto.core.domain.util.Result
-import com.longkd.cryptotracker.crypto.core.domain.util.map
+import com.longkd.cryptotracker.BuildConfig
+import com.longkd.cryptotracker.core.data.networking.constructUrl
+import com.longkd.cryptotracker.core.data.networking.safeCall
+import com.longkd.cryptotracker.core.domain.util.NetworkError
+import com.longkd.cryptotracker.core.domain.util.Result
+import com.longkd.cryptotracker.core.domain.util.map
 import com.longkd.cryptotracker.crypto.data.mappers.toCoin
 import com.longkd.cryptotracker.crypto.data.networking.dto.CoinResponseDto
 import com.longkd.cryptotracker.crypto.domain.Coin
@@ -22,7 +23,7 @@ class RemoteCoinDataSource(
     override suspend fun getCoins(): Result<List<Coin>, NetworkError> {
         return safeCall<CoinResponseDto> {
             httpClient.get(
-                urlString = constructUrl("/assets")
+                urlString = constructUrl("?apiKey=${BuildConfig.API_KEY}")
             )
         }.map { response ->
             response.data.map {

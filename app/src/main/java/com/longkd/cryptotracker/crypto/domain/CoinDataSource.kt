@@ -1,7 +1,7 @@
 package com.longkd.cryptotracker.crypto.domain
 
-import com.longkd.cryptotracker.crypto.core.domain.util.NetworkError
-import com.longkd.cryptotracker.crypto.core.domain.util.Result
+import com.longkd.cryptotracker.core.domain.util.NetworkError
+import com.longkd.cryptotracker.core.domain.util.Result
 
 /**
  * @Author: longkd

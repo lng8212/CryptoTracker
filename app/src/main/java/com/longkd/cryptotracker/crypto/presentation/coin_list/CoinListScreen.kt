@@ -29,7 +29,6 @@ fun CoinListScreen(
     state: CoinListState,
     modifier: Modifier = Modifier
 ) {
-
     if (state.isLoading) {
         Box(
             modifier = modifier
@@ -67,7 +66,7 @@ private fun CoinListScreenPreview() {
                     previewCoin.toCoinUi()
                 ),
             ),
-            modifier = Modifier.background(MaterialTheme.colorScheme.background)
+            modifier = Modifier.background(MaterialTheme.colorScheme.background),
         )
     }
 
