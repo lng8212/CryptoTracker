@@ -3,6 +3,7 @@ package com.longkd.cryptotracker.crypto.presentation.models
 import androidx.annotation.DrawableRes
 import com.longkd.cryptotracker.core.presentation.util.getDrawableIdForCoin
 import com.longkd.cryptotracker.crypto.domain.Coin
+import com.longkd.cryptotracker.crypto.presentation.coin_detail.DataPoint
 import java.text.NumberFormat
 
 /**
@@ -18,7 +19,8 @@ data class CoinUi(
     val marketCapUsd: DisplayableNumber,
     val priceUsd: DisplayableNumber,
     val changePercent24Hr: DisplayableNumber,
-    @DrawableRes val iconRes: Int
+    @DrawableRes val iconRes: Int,
+    val coinPriceHistory: List<DataPoint> = emptyList()
 )
 
 data class DisplayableNumber(
