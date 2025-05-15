@@ -1,4 +1,4 @@
-package com.longkd.cryptotracker.core.navigation
+package com.longkd.cryptotracker.navigation
 
 import android.widget.Toast
 import androidx.compose.material3.adaptive.ExperimentalMaterial3AdaptiveApi
