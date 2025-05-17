@@ -37,12 +37,12 @@ CryptoTracker is a mobile application designed to help users monitor and manage 
     
 
 ## Screenshots
+<img src="https://github.com/user-attachments/assets/e40b4309-9599-4b34-a075-871a2505616e" width="300">
 <img src="https://github.com/user-attachments/assets/d39bb406-032d-4e48-a792-758e4bbc3021" width="300">
 <img src="https://github.com/user-attachments/assets/0aa65cba-9bb5-4b7a-b0aa-16e43ab2ab37" width="300">
-<img src="https://github.com/user-attachments/assets/e40b4309-9599-4b34-a075-871a2505616e" width="300">
+<img src="https://github.com/user-attachments/assets/0adb999d-5b3b-4f01-959d-87010cf6602c" width="300">
 <img src="https://github.com/user-attachments/assets/d19c947c-3aef-4444-a7ae-99c0fefd2e69" width="300">
 <img src="https://github.com/user-attachments/assets/e40d9c88-840f-4779-802e-065719d298a0" width="300">
-<img src="https://github.com/user-attachments/assets/0adb999d-5b3b-4f01-959d-87010cf6602c" width="300">
 
 ## Installation
 
